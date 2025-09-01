@@ -1,0 +1,6 @@
+---
+# handlers file for roles/samba
+- name: Reiniciar Samba
+  service:
+    name: smbd
+    state: restarted

@@ -1,0 +1,11 @@
+[global]
+	workgroup = WORKGROUP
+	security = user
+
+[Proyectos]
+	path = {{ samba_share_path }}
+	valid users = @{{ samba_group }}
+	read only = no
+	create mask = 0770
+	directory mask = 0770
+	force group = {{ samba_group }}

@@ -1,0 +1,6 @@
+---
+nombre_empresa: "InnovaSys"
+samba_share_path: "/srv/samba/proyectos"
+samba_user: "devuser1"
+samba_group: "desarrolladores"
+samba_password: "Innova.2025"
